@@ -1,0 +1,17 @@
+ /*  Adding Functionality   */
+    
+    #menu-toggle:checked+.menu-button-container .menu-button::before {
+        margin-top: 0px;
+        transform: rotate(45deg);
+    }
+    
+    #menu-toggle:checked+.menu-button-container .menu-button {
+        background: rgba(255, 255, 255, 0);
+    }
+    
+    #menu-toggle:checked+.menu-button-container .menu-button::after {
+        margin-top: 0px;
+        /*  transforms icon into a cross  */
+        transform: rotate(-45deg);
+    }
+    
